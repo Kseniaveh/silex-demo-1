@@ -42,7 +42,7 @@
 
   
    $app->get('/author', function () use($app) {
-    return '<h2>Вехова Ксения</h2>'; 
+    return '<h4 id="author" title="GossJS">Вехова Ксения</h4>'; 
   })->after($hdrs);
 
   $app->error(function ($e) use($app) {
