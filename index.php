@@ -2,7 +2,7 @@
   require 'vendor/autoload.php';
   
   use Symfony\Component\HttpFoundation\Response;
-
+<h4 id="author" title="GossJS">Вехова Ксения</h4>
   //const app = express();
   $app = new Silex\Application();
   $hdrs = function ($req, $res) {
