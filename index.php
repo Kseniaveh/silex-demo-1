@@ -40,9 +40,6 @@
     return '<h2>Возведение в степень: </h2><h3>' . ($n1 ** $n2) . '</h3>'; 
   })->after($hdrs);
 
-   $app->get('/author/', function use($app) {
-    return '<h2>Вехова Ксения</h2>'; 
-  })->after($hdrs);
 
   $app->error(function ($e) use($app) {
     if ($e instanceof Symfony\Component\HttpKernel\Exception\NotFoundHttpException) {
